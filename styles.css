@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-image: url(background.jpg);
+}
+
+.input-group{
+    width: 35rem;
+    margin: auto;
+    margin-top: 10rem;
+}
+
+.info{
+    width: 35rem;
+    margin: auto;
+    margin-top: 5rem;
+    border-radius: 5px;
+    background-color: white;
+    opacity: 0.87;
+}
+
+.form-control{
+    box-shadow: none !important;    /*to remove bootstrap blue border on clicking */
+    opacity: 0.8;
+}
+
+.btn{
+    box-shadow: none !important;    /*to remove bootstrap blue border on clicking */
+}
+
+@media (max-width: 650px) {
+    .input-group, .info{
+        width: 90%;
+    }
+}
+

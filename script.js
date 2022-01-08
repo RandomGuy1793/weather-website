@@ -25,4 +25,6 @@ let setData = (data) => {
 }
 
 search.addEventListener("click", getData);
-
+document.addEventListener("keydown", (e)=>{
+    if(e.key==="Enter") getData();
+});
